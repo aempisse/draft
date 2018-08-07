@@ -1,0 +1,13 @@
+{
+  "name": "draft",
+  "version": "1.0.0",
+  "description": "a draft for functions I want to try or implement",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aempisse",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
