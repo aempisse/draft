@@ -8,6 +8,15 @@
   "author": "aempisse",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.2.0"
-  }
+    "node-fetch": "^2.2.0",
+    "p5": "^0.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aempisse/draft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aempisse/draft/issues"
+  },
+  "homepage": "https://github.com/aempisse/draft#readme"
 }
