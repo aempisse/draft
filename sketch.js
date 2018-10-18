@@ -63,4 +63,23 @@ function draw() {
         triangleBaseCenterX + offsetX, triangleBaseCenterY,
         triangleBaseCenterX, triangleBaseCenterY - offsetY
     )
+
+    // ANTENNAS
+
+    stroke(255, 0, 153)
+    let endpointAntennasY = random(0, rectStartY * 0.5)
+    let endpointAntennaRightX = random(width * 0.5 + 50, width * 0.5 + 80)
+    let endpointAntennaLeftX = random(width * 0.5 - 50, width * 0.5 - 80)
+    line(
+        width * 0.5,
+        rectStartY,
+        endpointAntennaRightX,
+        endpointAntennasY
+    )
+    line(
+        width * 0.5,
+        rectStartY,
+        endpointAntennaLeftX,
+        endpointAntennasY
+    )
 }
